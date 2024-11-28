@@ -22,13 +22,13 @@ public class IT24102279Lab5Q3 {
             System.exit(0);
         }
         else {
-            int totalAmount = totalAmountNoDiscount;
+            double totalAmount = totalAmountNoDiscount;
 
             if (duration >= 3 && duration <= 4) {
-                totalAmount = totalAmountNoDiscount - (totalAmountNoDiscount * 10 / 100);
+                totalAmount = totalAmountNoDiscount - (totalAmountNoDiscount * 10.0 / 100.0);
             }
             else if (duration >= 5) {
-                totalAmount = totalAmountNoDiscount - (totalAmountNoDiscount * 20 / 100);
+                totalAmount = totalAmountNoDiscount - (totalAmountNoDiscount * 20.0 / 100.0);
             }
 
             System.out.println("Total amount (after discount if applicable): " + totalAmount);
