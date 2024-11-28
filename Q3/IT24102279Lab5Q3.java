@@ -34,6 +34,5 @@ public class IT24102279Lab5Q3 {
             System.out.println("Total amount (after discount if applicable): " + totalAmount);
         }
 
-        input1.close();
     }
 }
